@@ -7,7 +7,8 @@
     if (!isNaN(num1) && !isNaN(num2)) {
     // Perform the operation
                     let result = multiply(num1, num2);
-
+                    let additionResult = addition(num1, num2);
+                    let divisionResult = division(num1, num2);
                     // Display the result
                     displayResult(result);
                 } else {
@@ -22,6 +23,18 @@
                 // Multiply the numbers
                 return a * b;
             }
+
+            let addition = (a, b)=>{
+                debugger;
+                return a + b ;
+            }
+
+            let division = function (a, b) {
+                debugger 
+                return a / b;
+            }
+
+            
 
             function displayResult(result) {
                 // Display the result in the paragraph element
